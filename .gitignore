@@ -1,0 +1,25 @@
+# Dependencies
+**/node_modules/
+# Actual local data; may contain personal data, document images and password hashes
+backend/db.json
+**/db.json
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+# Editors and platform files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+# Private user uploads / runtime exports
+uploads/
+**/uploads/
+*.sqlite
+*.sqlite3
+# Generated artifacts
+coverage/
+dist/
